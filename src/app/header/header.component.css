@@ -1,0 +1,52 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
+#githubAccount,#linkedinAccount {
+   color:#fff;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    float:left;
+    margin-right: 25px;
+}
+
+#githubAccount :hover,#linkedinAccount :hover{
+    color:#64c5f6;
+    text-decoration: none;
+}
+
+  .spacer {
+    flex: 1;
+  }
